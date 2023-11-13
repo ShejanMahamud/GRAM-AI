@@ -22,8 +22,8 @@ dp = Dispatcher(bot)
 @dp.message_handler()
 async def send(message: types.Message):
     try:
-        chatbot = await AsyncChatbot.create(secure_1PSID, secure_1PSIDTS)
-        await message.answer('Gram AI writes...')
+        chatbot = await AsyncChatbot.create(secure_1PSID, secure_1PSIDTS)  # it's sad that initialization happens every time a message is sent, I'll probably fix it sometime.
+        await message.answer('Google Bard writes...')
         await message.answer_chat_action('typing')
         answer = await chatbot.ask(message.text)
         await message.answer(answer.get('content'), parse_mode="markdown")
