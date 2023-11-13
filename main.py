@@ -23,7 +23,7 @@ dp = Dispatcher(bot)
 async def send(message: types.Message):
     try:
         chatbot = await AsyncChatbot.create(secure_1PSID, secure_1PSIDTS)
-        await message.answer('Google Bard writes...')
+        await message.answer('Gram AI writes...')
         await message.answer_chat_action('typing')
         answer = await chatbot.ask(message.text)
         await message.answer(answer.get('content'), parse_mode="markdown")
