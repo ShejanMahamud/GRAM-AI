@@ -22,17 +22,17 @@ We get the key to access **API**, it is shaded in the screenshot.
 
 ## Launch Bot
 
-- In vps,
-  `git clone https://github.com/ShejanMahamud/GRAM-AI`
-  `cd GRAM-AI`
-  `pip install -r requirements.txt`
-  `python3 main.py`
+- In vps,<br>
+  `git clone https://github.com/ShejanMahamud/GRAM-AI`<br>
+  `cd GRAM-AI`<br>
+  `pip install -r requirements.txt`<br>
+  `python3 main.py`<br>
 
-## Dialog with a bot
+## Bot Demo
 
-![Dialog screenshot 1](https://proghunter.ru/media/images/uploads/2023/05/14/256ffa2248-uploaded-image.png)
+![Demo screenshot 1](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgdOZJ0Rqa9c0S0gOHl2iycj_F3EHGz1H8MDXE5DMtKGz7baVLZHEjPlOEVXBixyoKw2CUR18AhdHbCJighHcXBWsxdpFQgw_xaH_P4xNPzFF3qxPw8ohrC2dwWQygFtBtDz5Vz1tXpjN29PHLfFzn6Hw1iCzA0LGqE7SYIh9pBZBo6tLPE1h-1FzAVo4I/s1600/screen%20%281%29.png)
 
-![Dialog screenshot 2](https://proghunter.ru/media/images/uploads/2023/05/14/7709de8995-uploaded-image.png)
+![Demo screenshot 2](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjWA6tR6Xm9htq74EcHS_q-uSTDWBDPCvYJyRK7bOnP6v8ogtYcyhV9xYU02JdjepRcsSYcCAcZC-ByQRZFZF3HO-eUALaGZDo6u55Lr0Qo8txkPSsQNsHPbmp1upAJQkv3xwouzi80twxvFpF7ei6TDrCc9LQYlPUQrEllod0bg7tv0ZkI5y7qno4MTSI/s1600/screen%20%282%29.png)
 
 ## Proxy or VPN
 
